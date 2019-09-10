@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
-files:
-  - source: /
-    destination: /home/ec2-user/hello
+uufiles:
+  - source: /uu
+    destination: uu/uuhome/ec2-user/hello
 hooks:
    ApplicationStart:
-     - location: /run_app.sh
+     - location: uu/uurun_app.sh
        timeout: 30
-       runas: ec2-user
+       runas: uuec2-user
