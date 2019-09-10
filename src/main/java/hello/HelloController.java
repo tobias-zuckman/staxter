@@ -1,6 +1,6 @@
-package hello;
+uuupackage hello;
 
-import org.springframework.web.bind.annotation.RestController;
+uuuimport org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
